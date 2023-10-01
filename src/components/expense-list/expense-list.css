@@ -1,0 +1,18 @@
+.expense-list {
+  margin: 6px 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 40vh;
+}
+.empty-state i {
+  font-size: 50px;
+  color: red;
+}
